@@ -1,0 +1,99 @@
+.container {
+    width: 80%;
+    
+    margin: 0 auto;
+
+  }
+  
+  .sub-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .thead-dark tr th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .table-body tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td,
+  th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .pagechange {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .pagechange button {
+    width: 80px;
+    height: 35px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .material-icons{
+    size: 5rem;
+  }
+  .pagechange button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: default;
+  }
+  
+  .form-control {
+    width: 350px;
+    height: 35px;
+    padding: 4px 8px;
+    margin-top: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 8px;
+    outline: none;
+  }
+  
+  i.material-icons {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #333;
+  }
+
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  .form-control::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
